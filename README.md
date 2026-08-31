@@ -1,16 +1,23 @@
-# React + Vite
+# Hyrox.com
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A responsive, animated gym website built with React, JavaScript, Bootstrap, and Framer Motion. It includes a polished home page, program listings, trainer profiles, membership plans, testimonials, a photo gallery, and a contact section — plus a "Book Free Trial" flow to convert visitors into leads. UI is enhanced with React Bits components and smooth Framer Motion transitions for a modern, engaging user experience.
 
-Currently, two official plugins are available:
+## Features
+- Home, Programs, Trainers, Membership, Testimonials, Gallery, and Contact pages
+- Book Free Trial call-to-action flow
+- Smooth animations and page transitions with Framer Motion
+- Built with React + Vite, Bootstrap, and custom CSS
+- React Bits components for enhanced UI polish
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
+- React (Vite)
+- JavaScript
+- Bootstrap
+- CSS
+- Framer Motion
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Getting Started
+```bash
+npm install
+npm run dev
+```

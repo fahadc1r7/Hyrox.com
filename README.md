@@ -1,0 +1,2 @@
+# Hyrox.com
+A responsive, animated gym website built with React, JavaScript, Bootstrap, and Framer Motion. It includes a polished home page, program listings, trainer profiles, membership plans, testimonials, a photo gallery, and a contact section — plus a "Book Free Trial" flow to convert visitors into leads. UI is enhanced with React Bits components and smooth Framer Motion transitions for a modern, engaging user experience.

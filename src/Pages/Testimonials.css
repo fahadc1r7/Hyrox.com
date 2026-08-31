@@ -1,0 +1,35 @@
+.testimonial-carousel {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.testimonial-slide {
+  text-align: center;
+  padding: 1rem 1rem 3rem;
+}
+
+.testimonial-img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border: 2px solid var(--gym-blue, #1e5fff);
+}
+
+.testimonial-stars {
+  color: var(--gym-blue, #1e5fff);
+}
+
+.testimonial-quote {
+  font-size: 1.1rem;
+  font-style: italic;
+  color: #ccc;
+  max-width: 480px;
+  margin: 0 auto 1rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

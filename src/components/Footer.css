@@ -1,0 +1,114 @@
+.site-footer {
+  background-color: #0a0a0a;
+  border-top: 1px solid #1f1f1f;
+  padding: 3rem 0 1.5rem;
+  color: #ccc;
+}
+
+.footer-brand {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.footer-text {
+  font-size: 0.9rem;
+  color: #999;
+  line-height: 1.6;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.footer-socials a {
+  color: #fff;
+  background-color: #1a1a1a;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.25s ease;
+}
+
+.footer-socials a:hover {
+  background-color: var(--gym-blue, #1e5fff);
+}
+
+.footer-heading {
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 0.6rem;
+}
+
+.footer-links a {
+  color: #999;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.2s ease;
+}
+
+.footer-links a:hover {
+  color: var(--gym-blue, #1e5fff);
+}
+
+.footer-hours {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-hours li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  margin-bottom: 0.6rem;
+  color: #999;
+}
+
+.footer-hours li span:last-child {
+  color: #ccc;
+}
+
+.footer-newsletter {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.footer-newsletter .form-control {
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  color: #fff;
+  font-size: 0.85rem;
+}
+
+.footer-newsletter .form-control:focus {
+  background-color: #1a1a1a;
+  border-color: var(--gym-blue, #1e5fff);
+  box-shadow: 0 0 0 0.2rem rgba(30, 95, 255, 0.25);
+  color: #fff;
+}
+
+.footer-bottom {
+  border-top: 1px solid #1f1f1f;
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #777;
+}

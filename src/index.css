@@ -1,0 +1,27 @@
+:root {
+ 
+  --gym-black: #0d0d0d;
+  --gym-white: #ffffff;
+  --gym-blue: #0c4beb;     
+  --gym-blue-dark: #123fb0; 
+  --gym-gray: #1a1a1a;      
+
+  
+  --bs-primary: var(--gym-blue);
+  --bs-primary-rgb: 30, 95, 255;
+  --bs-dark: var(--gym-black);
+  --bs-body-bg: var(--gym-white);
+  --bs-body-color: var(--gym-black);
+}
+
+body {
+  background-color: var(--gym-white);
+  color: var(--gym-black);
+}
+html, body, #root {
+  background-color: #0d0d0d;
+  margin: 0;
+  padding: 0;
+}
+
+

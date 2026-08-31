@@ -1,0 +1,36 @@
+.policy-updated {
+  color: #888;
+  font-size: 0.85rem;
+}
+
+.policy-section {
+  max-width: 800px;
+  margin: 0 auto 2.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #1f1f1f;
+}
+
+.policy-section:last-child {
+  border-bottom: none;
+}
+
+.policy-section p {
+  color: #ccc;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.policy-list {
+  color: #ccc;
+  line-height: 1.8;
+  padding-left: 1.2rem;
+}
+
+.policy-list li {
+  margin-bottom: 0.5rem;
+}
+
+.policy-link {
+  color: var(--gym-blue, #1e5fff);
+  text-decoration: underline;
+}
